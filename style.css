@@ -73,8 +73,9 @@ img {
   border-radius: 8px;
 }
 
-/* .info-section { */
-
+.info-section {
+  padding: 40px 150px;
+}
 .info-title,
 .info {
   display: flex;
@@ -85,6 +86,7 @@ img {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  margin-bottom: 50px;
 }
 
 .info-container {
@@ -92,16 +94,42 @@ img {
   flex-direction: row;
   justify-content: center;
   gap: 40px;
+  margin-bottom: 150px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .info-pic {
-  width: 200px;
+  width: 180px;
   height: 150px;
   border: 5px solid #3882f6;
   border-radius: 8px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 40px 150px;
+}
+
+.saying {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1100px;
+}
+.actual-quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  margin: 120px;
+}
+
+.person {
+  display: flex;
+  justify-content: flex-end;
 }
